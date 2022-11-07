@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>360 TP VR Tahar Hichem</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+    "
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card position">
+      <div class="card-body">
+        <h4 class="card-title">Tp Vr Image 360 Tahar Hichem amphitheater:</h4>
+        <h5 class="card-title">Tebessa amphitheater</h5>
+        <p class="card-text">
+          This is the biggest amphitheater located in the Exact Science College
+          in Larbi Tbessi University in Tebessa.
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.110736602296!2d8.053589879992675!3d35.42728676196639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f9ed0f8168560d%3A0xaeaf5b11f4fef5bb!2zc2FsbGUgZGUgY29uZsOpcmVuY2Ug2YLYp9i52Kkg2KfZhNmF2K3Yp9i22LHYp9iqINin2YTZg9io2LHZiQ!5e0!3m2!1sen!2sdz!4v1667828244470!5m2!1sen!2sdz"
+          width="450"
+          height="450"
+          style="border: 1px solid #242424"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <a-scene>
+      <img id="panorama" src="./assets/AmphiTheatre.jpg" alt="" />
+      <a-sky src="#panorama" rotation="0 -90 0"></a-sky>
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.position{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 100;
+    width: 500px;
+    height: auto;
+}
+
+.my-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
